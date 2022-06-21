@@ -151,27 +151,18 @@
 // // Output
 // // Hello John. How are you?
 
-let person = {
-  name: 'John Doe',
-  getName: function() {
-      console.log(this.name);
-  }
-};
-let display = person.getName.bind(person)
-setTimeout(display, 1000);
-// Output
-// John Doe
+// let person = {
+//   name: 'John Doe',
+//   getName: function() {
+//       console.log(this.name);
+//   }
+// };
 
-
-
-
-
-// setTimeout(person.getName, 1000)
-// Output
-// undefined
-
-
-
+// let display = person.getName.bind(person)
+// setTimeout(, console.log(this), 1000);
+// console.log(display)
+// // Output
+// // undefined
 
 
 
